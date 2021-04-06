@@ -2,6 +2,13 @@
 
 ## 工作原理
 
+
+<img src="https://raw.githubusercontent.com/brizer/graph-bed/master/img/20210406155010.png"/>
+
+<img src="https://raw.githubusercontent.com/brizer/graph-bed/master/img/20210406155110.png"/>
+
+
+
 主要是基于插件和事件通信来完成所有功能的。
 
 
