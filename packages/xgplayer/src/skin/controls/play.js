@@ -33,6 +33,7 @@ let s_play = function () {
     btn.addEventListener(item, function (e) {
       e.preventDefault()
       e.stopPropagation()
+      //基于事件触发
       player.emit('playBtnClick')
     })
   })

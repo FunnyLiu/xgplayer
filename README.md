@@ -1,3 +1,19 @@
+# 源码分析
+
+## 工作原理
+
+主要是基于插件和事件通信来完成所有功能的。
+
+
+通过eventEmitter来完成事件通信类，然后每个插件会拿到player的实例，在各个不同的事件抛出处进行事件通信。
+
+整个播放器由各种不同的插件组成。
+
+ui是基于dom操作来完成的。
+
+
+
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/bytedance/xgplayer/master/xgplayer.png" width="384" height="96">
 </div>

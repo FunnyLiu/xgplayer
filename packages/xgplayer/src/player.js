@@ -524,7 +524,7 @@ class Player extends Proxy {
     }
     return 0
   }
-
+  // 插件安装方法
   static install (name, descriptor) {
     if (!Player.plugins) {
       Player.plugins = {}

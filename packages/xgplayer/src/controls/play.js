@@ -2,7 +2,7 @@ import Player from '../player'
 
 let play = function () {
   let player = this
-
+  //监听播放按钮点击视觉
   function onPlayBtnClick () {
     if (!player.config.allowPlayAfterEnded && player.ended) {
       return
